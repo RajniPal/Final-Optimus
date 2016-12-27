@@ -1,0 +1,5 @@
+<div >
+{{Welcome}}
+   
+</div>
+<div id="chartContainer" style="height:300px;width:100%;padding-top:25px;"></div>
