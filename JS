@@ -1,0 +1,1 @@
+var AngualrsJSApp = angular.module('AngualrsJSApp', ['ngRoute']).config(function ($routeProvider) {       $routeProvider.when('/LineChartDemo',          {              templateUrl: 'Templates/LineChartDemo.html',              controller: 'LineController'          });    $routeProvider.otherwise({ redirectTo: '/LineChartDemo' });})
